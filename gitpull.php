@@ -4,6 +4,6 @@
 // Resource used:
 //     https://code.tutsplus.com/tutorials/the-perfect-workflow-with-git-github-and-ssh--net-19564
 
-`git pull`;
+echo shell_exec("/usr/bin/git pull 2>&1");
 
 ?>
